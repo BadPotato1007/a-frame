@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>3D Round Trees with A-Frame</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Include A-Frame Library -->
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <!-- A-Frame Scene -->
+    <a-scene>
+      <!-- Sky Background -->
+      <a-sky color="#ECECEC"></a-sky>
+
+      <!-- Ground -->
+      <a-plane
+        position="0 0 -4"
+        rotation="-90 0 0"
+        width="30"
+        height="30"
+        color="#F5F5DC"
+      ></a-plane>
+
+      <!-- Scatter Trees -->
+      <!-- Tree 1 -->
+      <a-sphere position="0 2 -5" radius="1" color="#00796B"></a-sphere>
+      <a-cylinder position="0 0.5 -5" radius="0.1" height="1" color="#8B4513"></a-cylinder>
+      <!-- Tree 2 -->
+      <a-sphere position="2 2 -7" radius="1" color="#00796B"></a-sphere>
+      <a-cylinder position="2 0.5 -7" radius="0.1" height="1" color="#8B4513"></a-cylinder>
+      <!-- Tree 3 -->
+      <a-sphere position="-3 2 -6" radius="1" color="#00796B"></a-sphere>
+      <a-cylinder position="-3 0.5 -6" radius="0.1" height="1" color="#8B4513"></a-cylinder>
+      <!-- Tree 4 -->
+      <a-sphere position="4 2 -8" radius="1" color="#00796B"></a-sphere>
+      <a-cylinder position="4 0.5 -8" radius="0.1" height="1" color="#8B4513"></a-cylinder>
+      <!-- Tree 5 -->
+      <a-sphere position="-5 2 -9" radius="1" color="#00796B"></a-sphere>
+      <a-cylinder position="-5 0.5 -9" radius="0.1" height="1" color="#8B4513"></a-cylinder>
+      <!-- Tree 6 -->
+      <a-sphere position="3 2 -4" radius="1" color="#00796B"></a-sphere>
+      <a-cylinder position="3 0.5 -4" radius="0.1" height="1" color="#8B4513"></a-cylinder>
+      <!-- Tree 7 -->
+      <a-sphere position="-4 2 -3" radius="1" color="#00796B"></a-sphere>
+      <a-cylinder position="-4 0.5 -3" radius="0.1" height="1" color="#8B4513"></a-cylinder>
+      <!-- Tree 8 -->
+      <a-sphere position="5 2 -5" radius="1" color="#00796B"></a-sphere>
+      <a-cylinder position="5 0.5 -5" radius="0.1" height="1" color="#8B4513"></a-cylinder>
+      <!-- Tree 9 -->
+      <a-sphere position="-2 2 -8" radius="1" color="#00796B"></a-sphere>
+      <a-cylinder position="-2 0.5 -8" radius="0.1" height="1" color="#8B4513"></a-cylinder>
+      <!-- Tree 10 -->
+      <a-sphere position="1 2 -9" radius="1" color="#00796B"></a-sphere>
+      <a-cylinder position="1 0.5 -9" radius="0.1" height="1" color="#8B4513"></a-cylinder>
+      <!-- Tree 11 -->
+      <a-sphere position="-1 2 -3" radius="1" color="#00796B"></a-sphere>
+      <a-cylinder position="-1 0.5 -3" radius="0.1" height="1" color="#8B4513"></a-cylinder>
+      <!-- Tree 12 -->
+      <a-sphere position="3 2 -6" radius="1" color="#00796B"></a-sphere>
+      <a-cylinder position="3 0.5 -6" radius="0.1" height="1" color="#8B4513"></a-cylinder>
+      <!-- Tree 13 -->
+      <a-sphere position="-3 2 -7" radius="1" color="#00796B"></a-sphere>
+      <a-cylinder position="-3 0.5 -7" radius="0.1" height="1" color="#8B4513"></a-cylinder>
+      <!-- Tree 14 -->
+      <a-sphere position="2 2 -10" radius="1" color="#00796B"></a-sphere>
+      <a-cylinder position="2 0.5 -10" radius="0.1" height="1" color="#8B4513"></a-cylinder>
+      <!-- Tree 15 -->
+      <a-sphere position="0 2 -11" radius="1" color="#00796B"></a-sphere>
+      <a-cylinder position="0 0.5 -11" radius="0.1" height="1" color="#8B4513"></a-cylinder>
+
+      <!-- White Walls -->
+      <a-box position="0 1 0" width="30" height="2" depth="0.1" color="#FFFFFF"></a-box>
+      <a-box position="0 1 -12" width="30" height="2" depth="0.1" color="#FFFFFF"></a-box>
+      <a-box position="-15 1 -6" width="0.1" height="2" depth="30" color="#FFFFFF"></a-box>
+      <a-box position="15 1 -6" width="0.1" height="2" depth="30" color="#FFFFFF"></a-box>
+
+      <!-- Text -->
+      <a-text value="Hi,\nI'm Neerav!" position="1 4 -5" color="#000000" scale="10 10 10"></a-text>
+
+      <!-- Camera -->
+      <a-camera position="0 1.6 0">
+        <a-cursor></a-cursor>
+      </a-camera>
+    </a-scene>
+  </body>
+</html>
